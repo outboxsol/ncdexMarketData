@@ -1,0 +1,32 @@
+In this test project EncodeDecodeTest.cs containing the code for
+-Creating a sample fast template.
+-Fill the template with the data, its encoding logic and decoding logic.
+
+OpenFast project is the class library project that contains specification for the fast encoding.
+In program.cs class i am trying to decode a byte array that i recieved from ncedx exchange if i am trying to decode it with ascii encoding it is giving this type of less meaningful data 
+???20180212-06:38:37.65??1 ?????_ ???SYBEANIDR20FEB201?2856?? &> ???????? ???????????
+since we need to parse this array using fast encoding specs.
+
+
+NCEDX.xml is a fast template which i recieved from NCEDX team and loading it at the time of parsing the byte array data.
+After loading template xml i am getting the array of the data of type MessageTemplate.
+Now i tried to decode this with each Message template but not able to do the same getting some types of error.
+
+One error occurring when this open fast dll is trying to obtain the Template identifier it is giving it 127 and then trying to retrieve the template from dictionary
+since this template id does not exist it is throwing exception.
+
+According to Fast Api document page no. 21
+
+A template identifier is represented as an Unsigned Integer in the stream. It is a reportable error [ERR R6]
+if it is overlong.
+It is a dynamic error [ERR D9] if a decoder cannot find a template associated with a template identifier
+appearing in the stream.
+
+
+I bypass this error by doing a hardcode with the same id when template registration.
+
+but string doing iteration with each template to parse the data i am not able to decode the message .
+One thing i am suspecting that i might not have the correct template to parse the NCDEX broadcast data since OpenFast is calulating the template id is 127 and not able to find it or i am doing it with some wrong approach.
+
+
+I have attached the test project with this mail.

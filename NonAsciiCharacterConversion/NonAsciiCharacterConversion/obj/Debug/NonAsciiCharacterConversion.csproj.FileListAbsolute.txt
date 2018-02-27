@@ -1,0 +1,11 @@
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\bin\Debug\NonAsciiCharacterConversion.exe.config
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\bin\Debug\NonAsciiCharacterConversion.exe
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\bin\Debug\NonAsciiCharacterConversion.pdb
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\obj\Debug\NonAsciiCharacterConversion.exe
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\obj\Debug\NonAsciiCharacterConversion.pdb
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\obj\Debug\NonAsciiCharacterConversion.csprojResolveAssemblyReference.cache
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\bin\Debug\openfast.dll
+E:\D Drive\NewProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\bin\Debug\openfast.pdb
+F:\programming\FastTestProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\bin\Debug\NonAsciiCharacterConversion.exe.config
+F:\programming\FastTestProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\obj\Debug\NonAsciiCharacterConversion.exe
+F:\programming\FastTestProject\NonAsciiCharacterConversion\NonAsciiCharacterConversion\obj\Debug\NonAsciiCharacterConversion.pdb
